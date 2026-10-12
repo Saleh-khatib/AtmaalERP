@@ -1,0 +1,9 @@
+roles
+{
+
+				"CEO"
+				{
+					description = "User belonging to this role can access data of all other users."
+				}
+			
+}

@@ -1,0 +1,3 @@
+date format = "dd-MMM-yyyy"
+time zone = "Asia/Amman"
+time format = "24-hr"

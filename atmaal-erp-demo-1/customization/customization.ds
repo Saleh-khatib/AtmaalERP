@@ -1,0 +1,22 @@
+customize
+{
+
+		
+		font = "lato"
+		color options
+    	{
+        color = "11"
+    	}
+    	icon
+    	{
+        	text = "AED"
+        	background color = "theme"
+        	foreground color = "#ffffff"
+    	}
+    	logo
+    	{
+        	preference = "app_icon"
+        	placement = "left"
+    	}
+	
+}
