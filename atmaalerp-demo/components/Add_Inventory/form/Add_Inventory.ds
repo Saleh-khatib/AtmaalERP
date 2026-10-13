@@ -1,0 +1,175 @@
+form Add_Inventory
+{
+
+			displayname = "Add Inventory"
+			success message = "Inventory Added Successfully"
+			Section1
+			(
+				type = section
+				displayname = "Section"
+	 			row = 1
+	 			column = 0   
+				width = medium
+			)
+			plain
+			(
+    			type = plaintext
+				value = "<p class=\"zw-paragraph heading0\" style=\"margin: 0px 0px 0pt; line-height: 1.2; text-align: left; direction: ltr\"><span style=\"color: rgb(0, 0, 0)\" class=\"colour\"><span style=\"font-family: Lato\" class=\"font\"><span style=\"font-size: 12pt; vertical-align: baseline; font-weight: 400\" class=\"size\">💡 </span><span style=\"font-size: 12pt; font-weight: 600; vertical-align: baseline\" class=\"size\">Creator tip:</span><span style=\"font-size: 12pt; vertical-align: baseline; font-weight: 400\" class=\"size\"> Use this sample form to capture data. Below is an example of how it may look.</span></span></span><br /></p><div><br /></div><p class=\"zw-paragraph heading0\" style=\"margin: 0px 0px 0pt; line-height: 1.2; text-align: left; direction: ltr\"><span style=\"color: rgb(0, 0, 0)\" class=\"colour\"><span style=\"font-family: Lato\" class=\"font\"><span style=\"font-size: 12pt; vertical-align: baseline; font-weight: 400\" class=\"size\">Feel free to tweak things via the </span></span></span><span style=\"color: rgb(0, 0, 0)\" class=\"colour\"><span style=\"font-family: Lato\" class=\"font\"><span style=\"font-size: 12pt; vertical-align: baseline; font-weight: 400\" class=\"size\">form builder. Every form submission is recorded in a </span></span></span><span style=\"color: rgb(0, 0, 0)\" class=\"colour\"><span style=\"font-family: Lato\" class=\"font\"><span style=\"font-size: 12pt; vertical-align: baseline; font-weight: 400\" class=\"size\">r</span></span></span><span style=\"color: rgb(0, 0, 0)\" class=\"colour\"><span style=\"font-family: Lato\" class=\"font\"><span style=\"font-size: 12pt; vertical-align: baseline; font-weight: 400\" class=\"size\">eport and can be visuali</span></span></span><span style=\"color: rgb(0, 0, 0)\" class=\"colour\"><span style=\"font-family: Lato\" class=\"font\"><span style=\"font-size: 12pt; vertical-align: baseline; font-weight: 400\" class=\"size\">z</span></span></span><span style=\"color: rgb(0, 0, 0)\" class=\"colour\"><span style=\"font-family: Lato\" class=\"font\"><span style=\"font-size: 12pt; vertical-align: baseline; font-weight: 400\" class=\"size\">ed.</span></span></span><br /></p><p class=\"zw-paragraph heading0\" style=\"margin: 0px 0px 0pt; line-height: 1.2; text-align: left; direction: ltr\"><span class=\"EOP\">&nbsp;</span><br /></p><div><span style=\"background-color: rgba(0, 0, 0, 0)\" class=\"highlight\"><span style=\"color: rgb(0, 0, 0)\" class=\"colour\"><span style=\"font-family: Lato\" class=\"font\"><span style=\"font-size: 12pt; font-variant: normal; text-decoration: none; letter-spacing: 0pt; font-weight: 400; vertical-align: baseline; font-style: normal\" class=\"size\">Note: If you're capturing sensitive data via a field, take a look at the field's properties to make </span></span></span></span><span style=\"background-color: rgba(0, 0, 0, 0)\" class=\"highlight\"><span style=\"color: rgb(0, 0, 0)\" class=\"colour\"><span style=\"font-family: Lato\" class=\"font\"><span style=\"font-size: 12pt; vertical-align: baseline; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; letter-spacing: 0pt\" class=\"size\">sure </span></span></span></span><span style=\"background-color: rgba(0, 0, 0, 0)\" class=\"highlight\"><span style=\"color: rgb(0, 0, 0)\" class=\"colour\"><span style=\"font-family: Lato\" class=\"font\"><span style=\"font-size: 12pt; font-variant: normal; text-decoration: none; letter-spacing: 0pt; font-weight: 400; vertical-align: baseline; font-style: normal\" class=\"size\">it</span></span></span></span><span style=\"background-color: rgba(0, 0, 0, 0)\" class=\"highlight\"><span style=\"color: rgb(0, 0, 0)\" class=\"colour\"><span style=\"font-family: Lato\" class=\"font\"><span style=\"font-size: 12pt; vertical-align: baseline; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; letter-spacing: 0pt\" class=\"size\">'s</span></span></span></span><span style=\"background-color: rgba(0, 0, 0, 0)\" class=\"highlight\"><span style=\"color: rgb(0, 0, 0)\" class=\"colour\"><span style=\"font-family: Lato\" class=\"font\"><span style=\"font-size: 12pt; font-variant: normal; text-decoration: none; letter-spacing: 0pt; font-weight: 400; vertical-align: baseline; font-style: normal\" class=\"size\"> secured.</span></span></span></span><br /></div>"
+	 			row = 1
+	 			column = 1   
+				width = medium
+			)
+			Add_New
+			(
+				type = section
+				displayname = "Add New"
+				visibility = true
+	 			row = 2
+	 			column = 0   
+				width = medium
+			)
+			Item_Name
+			(
+    			type = text
+				displayname = "Item Name"
+	 			row = 2
+	 			column = 1   
+				width = medium
+			)
+			Category
+			(
+				type = radiobuttons
+				values = {"Components","Finished Products","Raw Materials"}
+				others option = true
+	 			row = 2
+	 			column = 1   
+				width = medium
+			)
+			Quantity
+			(
+				type = number
+	 			row = 2
+	 			column = 1   
+				width = medium
+			)
+			Unit_Price
+			(
+				type = decimal
+				displayname = "Unit Price"
+	 			row = 2
+	 			column = 1   
+				width = medium
+			)
+			Reorder_Level
+			(
+    			type = text
+				displayname = "Reorder Level"
+	 			row = 2
+	 			column = 1   
+				width = medium
+			)
+			Manufacturer
+			(
+				type = picklist
+				values = {"Manufacturer A","Manufacturer B","Manufacturer C","Supplier A","Supplier B","Supplier C"}
+				others option = true
+	 			row = 2
+	 			column = 1   
+				width = medium
+			)
+			Last_Updated
+			(
+    			type = date
+				displayname = "Last Updated"
+				alloweddays = 0,1,2,3,4,5,6
+	 			row = 2
+	 			column = 1   
+				width = medium
+			)
+			Material_Type
+			(
+				type = picklist
+				displayname = "Material Type"
+				values = {"-","Chemical","Metal","Plastic"}
+				others option = true
+	 			row = 2
+	 			column = 1   
+				width = medium
+			)
+			Material_Grade
+			(
+				type = picklist
+				displayname = "Material Grade"
+				values = {"-","Grade A","Grade B","Grade C"}
+				others option = true
+	 			row = 2
+	 			column = 1   
+				width = medium
+			)
+			Lead_Time_days
+			(
+				type = number
+				displayname = "Lead Time (days)"
+	 			row = 2
+	 			column = 1   
+				width = medium
+			)
+			Shelf_Life_months
+			(
+				type = number
+				displayname = "Shelf Life (months)"
+	 			row = 2
+	 			column = 1   
+				width = medium
+			)
+			Storage_Conditions
+			(
+				type = picklist
+				displayname = "Storage Conditions"
+				values = {"-","Cool","Dry and Cool","Room Temperature"}
+				others option = true
+	 			row = 2
+	 			column = 1   
+				width = medium
+			)
+			Hazards
+			(
+				type = picklist
+				values = {"-","Flammable","None","Toxic"}
+				others option = true
+	 			row = 2
+	 			column = 1   
+				width = medium
+			)
+	
+			actions
+			{
+				on add
+				{
+					submit
+					(
+   						type = submit
+   						displayname = "Submit"
+					)
+					reset
+					(
+   						type = reset
+   						displayname = "Reset"
+					)
+				}
+				on edit
+				{
+					update
+					(
+   						type = submit
+   						displayname = "Update"
+					)
+					cancel
+					(
+   						type = cancel
+   						displayname = "Cancel"
+					)
+				}
+			}
+		
+}

@@ -1,0 +1,28 @@
+<panel elementName='Panel 5'>
+							<pr width='fill' height='fill'>
+								<pc bgColor='#FFFFFF' width='100%' hAlign='left' vAlign='middle'>
+									<pr width='fill' height='fill'>
+										<pc paddingTop='17px' paddingLeft='17px' paddingRight='0px' paddingBottom='17px' bgColor='rgba(0, 0, 0, 0)' width='100%' hAlign='left' vAlign='middle'>
+											<pr width='auto' height='auto'>
+												<pc>
+													<text color='#000000' size='24px' fontFamily='lato, arimo, sans-serif' type='Text' bgColor='rgba(0, 0, 0, 0)' value='\uD83C\uDF1F Welcome to Your ERP'>
+													</text>
+
+												</pc>
+											</pr>
+										</pc>
+									</pr>
+									<pr width='fill' height='fill'>
+										<pc paddingTop='0px' paddingLeft='17px' paddingRight='17px' paddingBottom='17px' bgColor='rgba(0, 0, 0, 0)' width='100%' hAlign='left' vAlign='middle'>
+											<pr width='auto' height='auto'>
+												<pc>
+													<text color='#595959' size='16px' type='Text' bgColor='rgba(0, 0, 0, 0)' value='Experience an app that works the way you do. Tailored for flexibility and efficiency, it can be designed to align perfectly with your workflow.'>
+													</text>
+
+												</pc>
+											</pr>
+										</pc>
+									</pr>
+								</pc>
+							</pr>
+</panel>

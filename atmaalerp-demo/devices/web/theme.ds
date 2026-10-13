@@ -1,0 +1,15 @@
+customize
+{
+
+			font = "lato"
+			color options
+			{
+				color = "11"
+			}
+			logo
+			{
+				preference = "app_icon"
+				placement = "left"
+			}
+		
+}

@@ -1,0 +1,1 @@
+<chart elementName='Chart' type='Pie' bgColor='rgb(255, 255, 255)' theme='theme2' legendPos='center.bottom' heightType='auto' heightValue='300px' appLinkName='thisapp' formLinkName='Add_Inventory' xfield='Material_Type' yfields='count:Material_Type' />

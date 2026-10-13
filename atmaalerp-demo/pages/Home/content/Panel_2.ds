@@ -1,0 +1,28 @@
+<panel elementName='Panel 2'>
+							<pr width='fill'>
+								<pc padding='20px' bgColor='#FFFFFF' width='100%' hAlign='left'>
+									<pr width='auto' height='auto'>
+										<pc padding='5px'>
+											<pr>
+												<pc>
+													<text marginLeft='10px' color='#3F3F3F' size='16px' type='Text' bgColor='rgba(0, 0, 0, 0)' value='Creator tip: You\u2019re looking at the Pages component in Zoho Creator. These pages are your ultimate tool for turning extensive data into actionable insights and dashboards.'>
+													</text>
+
+												</pc>
+											</pr>
+											<pr>
+												<pc>
+													<text marginLeft='10px' marginRight='0px' marginTop='15px' color='#AAAAAA' size='16px' italic='true' type='Text' bgColor='rgba(0, 0, 0, 0)' value='You might have seen the sample data in the app. When you&apos;re done looking around and ready to use your own data, just\u00A0go to a report, right-click, choose Select all records and then click Delete.'>
+													</text>
+
+												</pc>
+											</pr>
+											<pr>
+												<pc>
+													<button marginLeft='1px' marginRight='0px' marginBottom='0px' marginTop='5px' action='OpenReport' componentLinkName='All_Inventories' target='same-window' color='#AAAAAA' size='16px' italic='true' text='View a Report' type='flat' bgColor='#FFFFFF' cornerRadius='3px' /> </pc>
+											</pr>
+										</pc>
+									</pr>
+								</pc>
+							</pr>
+</panel>

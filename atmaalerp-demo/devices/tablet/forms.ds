@@ -1,0 +1,9 @@
+forms
+{
+
+			form Add_Inventory
+			{
+				label placement = auto
+			}
+		
+}

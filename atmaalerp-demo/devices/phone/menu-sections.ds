@@ -1,0 +1,87 @@
+menu
+{
+
+			space Space
+			{
+				displayname = "Space"
+				icon = "tech-desktop"
+
+				section Inventories
+				{
+					displayname = "Inventories"
+					icon = "tech-desktop"
+					form  Add_Inventory
+					{
+						icon = "tech-2-p-add"
+					}
+					report All_Inventories
+					{
+						icon = "tech-desktop"
+					}
+					report Category_wise_Inventory
+					{
+						icon = "shopping-stock"
+					}
+				}
+				section Home
+				{
+					displayname = "Home"
+					icon = "tech-desktop"
+					page Home
+					{
+						icon = "users-2-home"
+					}
+				}
+				section ZC_App_Preferences
+				{
+					displayname = "App Preferences"
+					icon = "design-app"
+					systemcomponent
+					{
+						type = localization
+						displayname = "Language Selection"
+						icon = "education-language"
+					}
+					systemcomponent
+					{
+						type = connection
+						displayname = "Integrations"
+						icon = "tech-2-connection"
+					}
+				}
+				section ZC_Approvals
+				{
+					displayname = "Approvals"
+					icon = "ui-2-hourglass"
+					systemcomponent
+					{
+						type = approval
+						approval status = pending
+						displayname = "Pending Tasks"
+						icon = "ui-2-hourglass"
+					}
+					systemcomponent
+					{
+						type = approval
+						approval status = completed
+						displayname = "Completed Tasks"
+						icon = "design-todo"
+					}
+				}
+				section SharedAnalytics_Section
+				{
+					type = shared_user_report_section
+					displayname = "Reports"
+					icon = "business-chart-bar-33"
+				}
+			}
+			preference
+			{
+				icon
+				{
+					style = outline
+					show = {space,section,component}
+				}
+			}
+		
+}

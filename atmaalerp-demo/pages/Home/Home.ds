@@ -1,0 +1,42 @@
+<page linkname = "Home" displayname = "Home"/>
+<content>
+<zml>
+	<layout>
+		<row>
+			<column width='100%'>
+				<row>
+					<column width='100%'>
+						<file name:Panel_5.ds/>
+					</column>
+				</row>
+				<row>
+					<column width='34%'>
+						<file name:Panel_4.ds/>
+					</column>
+					<column width='33%'>
+						<file name:Panel_1.ds/>
+					</column>
+					<column width='33%'>
+						<file name:Panel_3.ds/>
+					</column>
+				</row>
+				<row>
+					<column width='50%'>
+						<file name:Chart_1.ds/> </column>
+					<column width='50%'>
+						<file name:Chart.ds/> </column>
+				</row>
+				<row>
+					<column width='100%'>
+						<file name:Report.ds/> </column>
+				</row>
+				<row>
+					<column width='100%'>
+						<file name:Panel_2.ds/>
+					</column>
+				</row>
+			</column>
+		</row>
+	</layout>
+</zml>
+</content>

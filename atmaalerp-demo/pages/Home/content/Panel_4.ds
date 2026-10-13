@@ -1,0 +1,28 @@
+<panel elementName='Panel 4'>
+							<pr width='fill' height='fill'>
+								<pc bgColor='#FFFFFF' width='100%' hAlign='center' vAlign='middle'>
+									<pr width='fill' height='96px'>
+										<pc padding='20px' width='100%'>
+											<pr width='auto' height='auto'>
+												<pc>
+													<text color='#4C7DE8' size='36px' bold='true' type='Form Data' bgColor='rgba(0, 0, 0, 0)' displayType='actual' thousandsSeperator='LOCALE' decimalSeperator='DOT' numberScale='none' value='thisapp.Add_Inventory.ID.count'>
+													</text>
+
+												</pc>
+											</pr>
+										</pc>
+									</pr>
+									<pr width='fill' height='fill'>
+										<pc paddingTop='17px' paddingLeft='17px' paddingRight='0px' paddingBottom='17px' bgColor='#FAFAFA' width='100%' hAlign='center' vAlign='middle'>
+											<pr width='auto' height='auto'>
+												<pc>
+													<text color='#000000' size='16px' type='Text' bgColor='rgba(0, 0, 0, 0)' value='All Products'>
+													</text>
+
+												</pc>
+											</pr>
+										</pc>
+									</pr>
+								</pc>
+							</pr>
+</panel>

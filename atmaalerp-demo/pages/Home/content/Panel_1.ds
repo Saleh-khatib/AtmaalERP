@@ -1,0 +1,28 @@
+<panel elementName='Panel 1'>
+							<pr width='fill' height='fill'>
+								<pc bgColor='#FFFFFF' width='100%' hAlign='center' vAlign='middle'>
+									<pr width='fill' height='96.7333px'>
+										<pc padding='20px' width='100%'>
+											<pr width='auto' height='auto'>
+												<pc>
+													<text color='#4C7DE8' size='36px' bold='true' type='Form Data' bgColor='rgba(0, 0, 0, 0)' displayType='actual' thousandsSeperator='LOCALE' decimalSeperator='DOT' numberScale='none' criteria='Category == &quot;Raw Materials&quot;' value='thisapp.Add_Inventory.ID.count'>
+													</text>
+
+												</pc>
+											</pr>
+										</pc>
+									</pr>
+									<pr width='fill' height='fill'>
+										<pc paddingTop='17px' paddingLeft='0px' paddingRight='17px' paddingBottom='17px' bgColor='#FAFAFA' width='100%' hAlign='center' vAlign='middle'>
+											<pr width='auto' height='auto'>
+												<pc>
+													<text color='#333333' size='16px' type='Text' bgColor='rgba(0, 0, 0, 0)' value='Raw Material'>
+													</text>
+
+												</pc>
+											</pr>
+										</pc>
+									</pr>
+								</pc>
+							</pr>
+</panel>
