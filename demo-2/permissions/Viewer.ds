@@ -1,0 +1,7 @@
+"Viewer"
+{
+    name        = "Viewer"
+    type        = Users_Permissions
+    permissions = { Chat:false, Predefined:false, ApiAccess:false, PIIAccess:false, ePHIAccess:false }
+    description = "External portal user - read-only access to own company records, can download documents; no action buttons, cannot call write functions"
+}

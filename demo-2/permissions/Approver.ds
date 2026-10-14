@@ -1,0 +1,7 @@
+"Approver"
+{
+    name        = "Approver"
+    type        = Users_Permissions
+    permissions = { Chat:false, Predefined:false, ApiAccess:false, PIIAccess:false, ePHIAccess:false }
+    description = "External portal user - all Requester permissions plus approve proposals, sign agreements via Zoho Sign, sign off UAT, approve go-live"
+}

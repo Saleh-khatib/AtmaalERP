@@ -1,0 +1,152 @@
+form Notification
+{
+    title
+    {
+        displayname = "Notification"
+        on add = "Add Notification"
+        on edit = "Edit Notification"
+    }
+
+    Notification_Details
+    (
+        type = section
+        displayname = "Notification Details"
+        row = 1
+        column = 0
+    )
+    must have Portal_User
+    (
+        type = picklist
+        displayname = "Portal User"
+        values = Portal_User.ID
+        displayformat = [Full_Name]
+        row = 1
+        column = 1
+        width = medium
+    )
+    must have Account
+    (
+        type = picklist
+        displayname = "Account"
+        values = Account.ID
+        displayformat = [Account_Name]
+        row = 1
+        column = 2
+        width = medium
+    )
+    must have Event_Type
+    (
+        type = picklist
+        displayname = "Event Type"
+        values = {"Request_Submitted", "Status_Changed", "Info_Required", "Proposal_Available", "Approval_Required", "Signature_Required", "PO_Required", "Request_Completed", "Ticket_Updated"}
+        row = 1
+        column = 1
+        width = medium
+    )
+    Reference
+    (
+        type = text
+        displayname = "Reference"
+        row = 1
+        column = 2
+        width = medium
+    )
+
+    Content
+    (
+        type = section
+        displayname = "Content"
+        row = 2
+        column = 0
+        visibility = true
+    )
+    must have Title_EN
+    (
+        type = text
+        displayname = "Title (English)"
+        row = 2
+        column = 1
+        width = medium
+    )
+    must have Title_AR
+    (
+        type = text
+        displayname = "Title (Arabic)"
+        row = 2
+        column = 2
+        width = medium
+    )
+    Body_EN
+    (
+        type = textarea
+        displayname = "Body (English)"
+        row = 2
+        column = 1
+        width = medium
+    )
+    Body_AR
+    (
+        type = textarea
+        displayname = "Body (Arabic)"
+        row = 2
+        column = 2
+        width = medium
+    )
+
+    Status_And_Timing
+    (
+        type = section
+        displayname = "Status and Timing"
+        row = 3
+        column = 0
+        visibility = true
+    )
+    must have Created_Time
+    (
+        type = datetime
+        displayname = "Created Time"
+        row = 3
+        column = 1
+        width = medium
+    )
+    Read
+    (
+        type = checkbox
+        displayname = "Read"
+        row = 3
+        column = 2
+        width = medium
+    )
+
+
+
+    actions
+    {
+        on add
+        {
+            Submit
+            (
+                type = submit
+                displayname = "Submit"
+            )
+            Reset
+            (
+                type = reset
+                displayname = "Reset"
+            )
+        }
+        on edit
+        {
+            Update
+            (
+                type = submit
+                displayname = "Update"
+            )
+            Cancel
+            (
+                type = cancel
+                displayname = "Cancel"
+            )
+        }
+    }
+}

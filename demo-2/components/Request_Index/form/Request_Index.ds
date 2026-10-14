@@ -1,0 +1,165 @@
+form Request_Index
+{
+    title
+    {
+        displayname = "Request Index"
+        on add = "Add Request Index"
+        on edit = "Edit Request Index"
+    }
+
+    Request_Details
+    (
+        type = section
+        displayname = "Request Details"
+        row = 1
+        column = 0
+    )
+    must have unique CRM_Deal_ID
+    (
+        type = text
+        displayname = "CRM Deal ID"
+        row = 1
+        column = 1
+        width = medium
+    )
+    Reference
+    (
+        type = text
+        displayname = "Reference"
+        row = 1
+        column = 2
+        width = medium
+    )
+    must have Account
+    (
+        type = picklist
+        displayname = "Account"
+        values = Account.ID
+        displayformat = [Account_Name]
+        row = 1
+        column = 1
+        width = medium
+    )
+    Account_ID
+    (
+        type = text
+        displayname = "Account ID"
+        row = 1
+        column = 2
+        width = medium
+    )
+    Service_Name
+    (
+        type = text
+        displayname = "Service Name"
+        row = 1
+        column = 1
+        width = medium
+    )
+    Client_Label
+    (
+        type = text
+        displayname = "Client Label"
+        row = 1
+        column = 2
+        width = medium
+    )
+
+    Status_And_Action
+    (
+        type = section
+        displayname = "Status and Action"
+        row = 2
+        column = 0
+        visibility = true
+    )
+    Stage
+    (
+        type = text
+        displayname = "Stage"
+        row = 2
+        column = 1
+        width = medium
+    )
+    must have Dashboard_Group
+    (
+        type = picklist
+        displayname = "Dashboard Group"
+        values = {"New", "In progress", "Needs your action", "Completed"}
+        row = 2
+        column = 2
+        width = medium
+    )
+    Action_Required
+    (
+        type = checkbox
+        displayname = "Action Required"
+        row = 2
+        column = 1
+        width = medium
+    )
+    Action_Type
+    (
+        type = text
+        displayname = "Action Type"
+        row = 2
+        column = 2
+        width = medium
+    )
+    Requester_Contact_ID
+    (
+        type = text
+        displayname = "Requester Contact ID"
+        row = 2
+        column = 1
+        width = medium
+    )
+    Last_Notified_Stage
+    (
+        type = text
+        displayname = "Last Notified Stage"
+        row = 2
+        column = 2
+        width = medium
+    )
+    Last_Modified
+    (
+        type = datetime
+        displayname = "Last Modified"
+        row = 2
+        column = 1
+        width = medium
+    )
+
+
+
+    actions
+    {
+        on add
+        {
+            Submit
+            (
+                type = submit
+                displayname = "Submit"
+            )
+            Reset
+            (
+                type = reset
+                displayname = "Reset"
+            )
+        }
+        on edit
+        {
+            Update
+            (
+                type = submit
+                displayname = "Update"
+            )
+            Cancel
+            (
+                type = cancel
+                displayname = "Cancel"
+            )
+        }
+    }
+}

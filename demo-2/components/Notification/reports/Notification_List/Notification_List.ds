@@ -1,0 +1,13 @@
+list Notification_List
+{
+    displayName = "Notification List"
+    show all rows from Notification
+    (
+        Portal_User
+        Account
+        Event_Type
+        Title_EN
+        Created_Time
+        Read
+    )
+}

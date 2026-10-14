@@ -1,0 +1,12 @@
+list Portal_User_List
+{
+    displayName = "Portal User List"
+    show all rows from Portal_User
+    (
+        Login_Email
+        Full_Name
+        Account
+        Role
+        Active
+    )
+}

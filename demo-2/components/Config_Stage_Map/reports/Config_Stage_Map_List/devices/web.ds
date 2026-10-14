@@ -1,0 +1,57 @@
+report Config_Stage_Map_List
+{
+    quickview
+    (
+        layout
+        (
+            type = -1
+            datablock1
+            (
+                layout type = -1
+                fields
+                (
+                    CRM_Stage_Value
+                    Client_Label_EN
+                    Client_Label_AR
+                    Dashboard_Group
+                    Who_Acts
+                    Sort_Order
+                )
+            )
+        )
+        menu
+        (
+            header ( Edit  Duplicate  Delete )
+            record ( Edit  Duplicate  Delete )
+        )
+        action
+        (
+            on click ( View Record )
+            on right click ( Edit  Delete  Duplicate  View Record )
+        )
+    )
+    detailview
+    (
+        layout
+        (
+            type = 1
+            datablock1
+            (
+                layout type = -2
+                fields
+                (
+                    CRM_Stage_Value
+                    Client_Label_EN
+                    Client_Label_AR
+                    Dashboard_Group
+                    Who_Acts
+                    Sort_Order
+                )
+            )
+        )
+        menu
+        (
+            header ( Edit  Duplicate  Delete )
+        )
+    )
+}

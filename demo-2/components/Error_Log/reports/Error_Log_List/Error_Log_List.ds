@@ -1,0 +1,11 @@
+list Error_Log_List
+{
+    displayName = "Error Log List"
+    show all rows from Error_Log
+    (
+        Event_Time
+        Function_Name
+        Message
+        Reference
+    )
+}

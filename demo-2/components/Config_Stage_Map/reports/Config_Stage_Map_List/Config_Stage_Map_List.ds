@@ -1,0 +1,13 @@
+list Config_Stage_Map_List
+{
+    displayName = "Config Stage Map List"
+    show all rows from Config_Stage_Map
+    (
+        CRM_Stage_Value
+        Client_Label_EN
+        Client_Label_AR
+        Dashboard_Group
+        Who_Acts
+        Sort_Order
+    )
+}

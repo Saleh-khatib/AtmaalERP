@@ -1,0 +1,10 @@
+list Config_Strings_List
+{
+    displayName = "Config Strings List"
+    show all rows from Config_Strings
+    (
+        String_Key
+        Text_EN
+        Text_AR
+    )
+}

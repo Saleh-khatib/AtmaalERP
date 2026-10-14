@@ -1,0 +1,35 @@
+forms
+{
+    form Account
+    {
+        label placement = top
+    }
+    form Portal_User
+    {
+        label placement = top
+    }
+    form Request_Index
+    {
+        label placement = top
+    }
+    form Notification
+    {
+        label placement = top
+    }
+    form Audit_Log
+    {
+        label placement = top
+    }
+    form Config_Stage_Map
+    {
+        label placement = top
+    }
+    form Config_Strings
+    {
+        label placement = top
+    }
+    form Error_Log
+    {
+        label placement = top
+    }
+}
