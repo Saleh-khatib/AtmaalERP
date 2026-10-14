@@ -1,7 +1,0 @@
-"Requester"
-{
-    name        = "Requester"
-    type        = Users_Permissions
-    permissions = { Chat:false, Predefined:false, ApiAccess:false, PIIAccess:false, ePHIAccess:false }
-    description = "External portal user - can view own company records, create requests, reply, upload documents, raise tickets, download documents, confirm contacts, mark UAT scenarios"
-}

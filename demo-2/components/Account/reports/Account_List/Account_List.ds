@@ -1,9 +1,0 @@
-list Account_List
-{
-    displayName = "Account List"
-    show all rows from Account
-    (
-        Account_ID
-        Account_Name
-    )
-}
