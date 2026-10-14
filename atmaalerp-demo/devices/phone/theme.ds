@@ -1,16 +1,16 @@
 customize
 {
 
-			layout = onecolumn
-			font = "default"
-			style = "3"
-			color options
-			{
-				color = yellow
-			}
-			logo
-			{
-				preference = "app_icon"
-			}
+        	layout = twocolumn
+        	font = "default"
+            style = "3"
+        	color options
+        	{
+             	color = chryslerpurple
+         	}
+         	logo
+         	{
+             	preference = "none"
+         	}
 		
 }

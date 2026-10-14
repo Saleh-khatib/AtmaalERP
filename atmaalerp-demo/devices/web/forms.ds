@@ -1,9 +1,0 @@
-forms
-{
-
-			form Add_Inventory
-			{
-				label placement = left
-			}
-		
-}

@@ -1,11 +1,22 @@
 customize
 {
 
-		icon
-		{
-			icon = "zc-ab-hr-mgmt9"
-			background color = "#48BBB4"
-			foreground color = "#ffffff"
-		}
+		
+		font = "lato"
+		color options
+    	{
+        color = "11"
+    	}
+    	icon
+    	{
+        	text = "DEM"
+        	background color = "theme"
+        	foreground color = "#ffffff"
+    	}
+    	logo
+    	{
+        	preference = "app_icon"
+        	placement = "left"
+    	}
 	
 }

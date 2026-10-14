@@ -1,1 +1,0 @@
-<chart elementName='Chart 1' type='Column' bgColor='rgb(255, 255, 255)' theme='theme2' legendPos='center.bottom' heightType='auto' heightValue='300px' appLinkName='thisapp' formLinkName='Add_Inventory' xfield='Category' yfields='count:Category' />

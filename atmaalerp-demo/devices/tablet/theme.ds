@@ -1,16 +1,16 @@
 customize
 {
 
-			layout = slidingpane
-			font = "default"
-			style = "3"
-			color options
-			{
-				color = yellow
-			}
-			logo
-			{
-				preference = "none"
-			}
+        	layout = slidingpane
+        	font = "default"
+            style = "3"
+        	color options
+        	{
+             	color = rose
+         	}
+         	logo
+         	{
+             	preference = "none"
+         	}
 		
 }

@@ -1,9 +1,0 @@
-"Customer"
-{
-
-				name = "Customer"
-				type = Customer_Portal
-				permissions = {Chat:false, Predefined:true, ApiAccess:true, PIIAccess:true, ePHIAccess:true}
-				description = "This is the default profile having only add and view permission.\n"
-			
-}
